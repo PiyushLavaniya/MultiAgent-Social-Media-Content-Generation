@@ -4,3 +4,4 @@ streamlit
 openai==1.52.2
 anthropic
 pysqlite3-binary
+httpx==0.27.2
