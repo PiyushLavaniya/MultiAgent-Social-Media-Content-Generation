@@ -1,0 +1,54 @@
+generate_linkedin_post:
+  description: >
+    Create a professional and insightful LinkedIn post for the company's industry.
+    Ensure the post is structured, valuable, and establishes thought leadership.
+    Use a professional tone with a clear call-to-action when necessary.
+
+    Industry: {industry}  
+    Company Info: {company_info}
+  expected_output: >
+    A well-structured LinkedIn post (3-5 paragraphs) with industry insights and professional tone.
+
+generate_twitter_post:
+  description: >
+    Write an engaging and concise Twitter post. It can be a single tweet or a short thread.
+    Ensure it aligns with Twitter's best practices, using hashtags, mentions, and hooks if needed.
+
+    Industry: {industry}  
+    Company Info: {company_info}
+  expected_output: >
+    A tweet (or short thread) of max 280 characters per tweet that is engaging and shareable.
+
+generate_instagram_post:
+  description: >
+    Create a fun and engaging Instagram caption that aligns with the brand’s voice.
+    The caption should be engaging, include relevant hashtags, and drive interaction.
+
+    Industry: {industry}  
+    Company Info: {company_info}
+  expected_output: >
+    A catchy and engaging Instagram caption with relevant hashtags.
+
+generate_facebook_post:
+  description: >
+    Write a conversational and engaging Facebook post that resonates with the audience.
+    The post should be friendly, engaging, and possibly include a call-to-action.
+
+    Industry: {industry}  
+    Company Info: {company_info}
+  expected_output: >
+    A well-crafted Facebook post (3-4 paragraphs) with a conversational tone.
+
+humanize_post:
+  description: >
+    Refine and enhance the generated post to ensure it sounds natural, human-like, and engaging.
+    Improve the flow, readability, and emotional connection.
+  expected_output: >
+    A polished version of the social media post with improved readability and engagement.
+
+review_final_post:
+  description: >
+    Conduct a final review of the post, ensuring clarity, engagement, and platform optimization.
+    Ensure that the tone and structure match the platform’s expectations.
+  expected_output: >
+    The final reviewed post, ready for publishing.
